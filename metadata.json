@@ -1,0 +1,6 @@
+{
+  "name": "CV. Bangun Sarana Makmur",
+  "description": "Website profil dan katalog resmi distributor material konstruksi CV. Bangun Sarana Makmur (BSM). Menyediakan Pagar BRC, Kawat Harmonika, Guardrail, ACP, dan Atap UPVC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
