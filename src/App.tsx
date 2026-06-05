@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import SchemaMarkup from "./components/SchemaMarkup";
 import MagneticCard from "./components/MagneticCard";
 import SpecsEstimator from "./components/SpecsEstimator";
+import TestimonialSection from "./components/TestimonialSection";
 import { Product } from "./data/products";
 import { useProducts } from "./context/ProductContext";
 import { Award, ShieldCheck, Truck, ArrowRight, MessageSquare, FlameKindling, Check, HelpCircle } from "lucide-react";
@@ -62,7 +63,7 @@ export default function App() {
   const projectGallery = [
     {
       id: "gal-1",
-      title: "Pagar BRC HDG Bandara Juanda Juanda",
+      title: "Pagar BRC HDG Bandara Juanda",
       location: "Sidoarjo - Cargo Expansion",
       material: "Pagar BRC Hot Dip Galvanis 8.0 mm",
       image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=800"
@@ -76,31 +77,31 @@ export default function App() {
     },
     {
       id: "gal-3",
-      title: "Kawat Harmonika PVC Lapangan Olahraga",
+      title: "Pagar Kawat Harmonika PVC Sport Center",
       location: "Sport Center Sidoarjo",
       material: "Kawat Harmonika PVC Anti-UV Hijau",
       image: "https://images.unsplash.com/photo-1549213715-0a90edd512da?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "gal-4",
-      title: "Fasad ACP SEVEN Perkantoran",
-      location: "Surabaya - Business Center",
-      material: "ACP SEVEN PVDF Alloy 3003",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800"
+      title: "Kawat Duri Silet Concertina Lapas Porong",
+      location: "Porong - Security Perimeter",
+      material: "Razor Wire BTO-22 Double Spiral",
+      image: "https://images.unsplash.com/photo-1508849789987-4e5333c12b78?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "gal-5",
-      title: "Atap UPVC Alderon Pergudangan Sembayat",
-      location: "Sembayat - Gresik Industrial Park",
-      material: "Atap Dingin Alderon Twinwall 10mm",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800"
+      title: "Guardrail Lintas Selatan Pacitan-Malang",
+      location: "Pacitan - Jalur Lintas Selatan (JLS)",
+      material: "Guardrail Tol Tebal Post 4.5mm",
+      image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "gal-6",
-      title: "Dak Cor Bondek Apartemen Bertingkat",
-      location: "Surabaya Timur - Highrise",
-      material: "Bondek Galvanis Z22 Tebal 0.75mm",
-      image: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&q=80&w=800"
+      title: "Pagar BRC Bandara Dhoho Kediri",
+      location: "Kediri - Airport Perimeter Fence",
+      material: "Pagar BRC HDG Tinggi 240 cm",
+      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=800"
     }
   ];
 
@@ -232,13 +233,13 @@ export default function App() {
                       ))}
                     </div>
 
-                    {/* Anchor CTA to go to the 7-filtered full catalog page */}
+                    {/* Anchor CTA to go to the full catalog page */}
                     <div className="mt-12 text-center">
                       <button
                         onClick={() => handleFeaturedCategoryClick("all")}
                         className="px-8 py-4 bg-white/5 border border-white/20 hover:border-safety-orange text-white rounded-none text-xs font-display font-bold uppercase tracking-wider cursor-pointer inline-flex items-center gap-2 transition-all hover:bg-slate-950/40"
                       >
-                        Jelajahi 7 Klasifikasi Katalog Material Selengkapnya
+                        Jelajahi Katalog Material Selengkapnya
                         <ArrowRight className="w-4 h-4 text-safety-orange" />
                       </button>
                     </div>
@@ -308,6 +309,9 @@ export default function App() {
 
                   </div>
                 </section>
+
+                {/* TESTIMONIALS SECTION FEATURE */}
+                <TestimonialSection />
 
                 {/* D. INSTANT FLOATING CTA SECTION (Lead Generation Engine) */}
                 <section className="py-16 bg-gradient-to-br from-industrial-charcoal to-industrial-slate border-t border-steel-border text-center relative overflow-hidden">

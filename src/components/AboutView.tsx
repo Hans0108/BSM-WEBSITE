@@ -77,7 +77,7 @@ export default function AboutView() {
 
           <div className="space-y-4 text-xs md:text-sm text-slate-300 font-sans leading-relaxed">
             <p>
-              Berpusat di area strategis penyangga logistik **Sidoarjo, Jawa Timur**, CV. Bangun Sarana Makmur berdiri sebagai entitas distributor dan pelaku fabrikasi material pengaman serta penutup atap yang solid. Kami lahir untuk memecahkan kendala klasik proyek sipil: keterlambatan stok material, spesifikasi di bawah standar yang ditolak pengawas, serta biaya logistik luar pulau yang melambung tinggi.
+              Berpusat di area strategis penyangga logistik **Sidoarjo, Jawa Timur**, CV. Bangun Sarana Makmur berdiri sebagai entitas distributor dan pelaku fabrikasi material pengaman pembatas jalan serta sistem keamanan logam. Kami lahir untuk memecahkan kendala klasik proyek sipil: keterlambatan stok material, spesifikasi di bawah standar yang ditolak pengawas, serta biaya logistik luar pulau yang melambung tinggi.
             </p>
             <p>
               Melalui kontrol penjaminan mutu berkesinambungan, setiap lembar **Pagar BRC**, lilitan **Kawat Harmonika**, ataupun bentangan baja **Guardrail Pembatas Jalan** yang keluar dari gudang depo kami telah melewati pengetesan mutu pelapisan galvanis dan ketahanan uji tarik kawat yang tinggi.

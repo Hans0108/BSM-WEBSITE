@@ -27,7 +27,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
 
             <p className="text-xs text-slate-300 leading-relaxed font-sans max-w-sm">
-              Distributor, supplier resmi, dan mitra fabrikasi material proyek sipil nasional. Mensuplai prasarana jalan raya, pagar pengaman perimeter bandara, penutup atap gudang, serta komponen fasad estetis dengan garansi mutu SNI dan kesiapan pengiriman antar pulau.
+              Distributor, supplier resmi, dan mitra fabrikasi material proyek sipil nasional. Mensuplai pagar pengaman perimeter bandara, sistem kawat duri keamanan tinggi, rintisan pagar BRC, kawat silet, serta guardrail penahan benturan jalan tol dengan garansi mutu SNI dan kesiapan logistik antar pulau.
             </p>
 
             <div className="pt-2 text-[10px] font-mono text-slate-500 space-y-1">
@@ -77,12 +77,12 @@ export default function Footer({ onNavigate }: FooterProps) {
               PRODUK UTAMA
             </h5>
             <ul className="space-y-2 text-xs text-slate-300 font-sans">
-              <li>Pagar BRC Galvanis</li>
-              <li>Kawat Harmonika PVC</li>
-              <li>Guardrail Pembatas Jalan</li>
-              <li>ACP SEVEN PVDF</li>
-              <li>Atap UPVC Alderon</li>
-              <li>Bondek Floor Decking</li>
+              <li>Pagar BRC Hot Dip Galvanis</li>
+              <li>Pagar BRC Electroplating</li>
+              <li>Kawat Duri Silet (Razor)</li>
+              <li>Kawat Duri Baja Galvanis</li>
+              <li>Kawat Harmonika PVC/Galv</li>
+              <li>Guardrail Pembatas Jalan Tol</li>
             </ul>
           </div>
 

@@ -328,12 +328,11 @@ export default function ContactView() {
                       className="w-full bg-[#17191C] border border-white/10 rounded-none py-2.5 px-3 text-xs text-white focus:outline-none focus:border-safety-orange focus:bg-slate-950/40 transition-colors cursor-pointer"
                     >
                       <option value="Pagar BRC">Pagar BRC Galvanis HDG/EP</option>
+                      <option value="Kawat Duri Silet">Kawat Duri Silet / Razor Wire</option>
+                      <option value="Kawat Duri Galvanis">Kawat Duri Galvanis SNI</option>
                       <option value="Kawat Harmonika">Kawat Harmonika PVC / Galvanis</option>
                       <option value="Guardrail Pembatas Jalan">Guardrail Pembatas Jalan Tol Dishub</option>
-                      <option value="Atap UPVC Alderon">Atap UPVC (Alderon / Rooftop)</option>
-                      <option value="ACP SEVEN PVDF">Aluminium Composite Panel (ACP SEVEN)</option>
-                      <option value="Bondek Cor Dak">Bondek Floor Decking / Cor Dak</option>
-                      <option value="Kawat Duri Silet">Kawat Duri Silet / Razor Wire</option>
+                      <option value="Aksesoris Tiang">Pipa Tiang BRC & Aksesoris Klem</option>
                       <option value="Lainnya">Kustomisasi Dimensi Profil Lainnya</option>
                     </select>
                   </div>

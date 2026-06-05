@@ -45,7 +45,7 @@ export default function Hero({ onNavigateToCatalog, onNavigateToContact, onNavig
       icon: Ruler,
       color: "border-blue-500 text-blue-400",
       title: "File CAD Presisi, Konsultasi Profil Kustom & Warna PVC",
-      valueProp: "Wujudkan presisi visual Anda. Tim teknik kami siap membantu kustomisasi ukuran mesh kawat, pola perforated ACP SEVEN, hingga pilihan powder coating.",
+      valueProp: "Wujudkan presisi visual Anda. Tim teknik kami siap membantu kustomisasi ukuran mesh kawat, pola kawat harmonika, hingga pilihan galvanisasinya.",
       cta: "Konsultasi Teknis & CAD File",
       templateMsg: "Halo BSM, saya Arsitek ingin mengajukan spesifikasi kustom untuk proyek rancangan saya."
     },
@@ -56,9 +56,9 @@ export default function Hero({ onNavigateToCatalog, onNavigateToContact, onNavig
       icon: Home,
       color: "border-purple-500 text-purple-400",
       title: "Instalasi Mandiri Bebas Karat, Solusi Pagar Estetis",
-      valueProp: "Pagar kuat bebas rayap dan karat puluhan tahun dengan pemasangan instan knockdown. Panduan ukuran lengkap pasang rumah carport Anda.",
+      valueProp: "Pagar kuat bebas karat puluhan tahun dengan pemasangan instan knockdown BRC. Panduan ketebalan kawat lengkap pasang perimeter properti Anda.",
       cta: "Butuh Panduan Ukuran & Hitung",
-      templateMsg: "Halo BSM, saya ingin membeli Pagar BRC / Atap UPVC untuk kepemilikan pribadi rumah."
+      templateMsg: "Halo BSM, saya ingin membeli Pagar BRC / Kawat Duri untuk kepemilikan batas lahan properti."
     },
   ];
 
@@ -108,7 +108,7 @@ export default function Hero({ onNavigateToCatalog, onNavigateToContact, onNavig
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-slate-400 text-base md:text-lg max-w-xl font-light italic border-l-2 border-safety-orange pl-6 leading-relaxed"
           >
-            Material Konstruksi Kelas Pro – Siap Kirim Seluruh Indonesia & Luar Pulau. CV. Bangun Sarana Makmur (BSM) mensuplai kebutuhan Pagar BRC, Kawat Harmonika, Guardrail, ACP SEVEN, dan atap UPVC berkekuatan tarik tinggi langsung dari depo andalan kami.
+            Material Konstruksi Kelas Pro – Siap Kirim Seluruh Indonesia & Luar Pulau. CV. Bangun Sarana Makmur (BSM) mensuplai kebutuhan Pagar BRC, Kawat Duri & Kawat Silet, serta Guardrail Pembatas Jalan Tol berkekuatan tarik tinggi langsung dari depo andalan kami.
           </motion.p>
 
           {/* Call to Actions */}

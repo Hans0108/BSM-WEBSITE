@@ -53,7 +53,7 @@ export default function CatalogView({ onProductSelect, initialCategory = "all" }
               Eksplorasi Spesifikasi <span className="text-safety-orange">Material Konstruksi</span>
             </h1>
             <p className="text-slate-350 text-xs md:text-sm font-sans font-light max-w-xl mx-auto">
-              Saring dan ulas lembar teknis, ukuran tebal pelat baja, berat seng galvanisasi, serta sertifikat pabrik dari 7 kategori material andalan BSM.
+              Saring dan ulas lembar teknis, ukuran tebal pelat baja, berat seng galvanisasi, serta sertifikat pabrik dari spesifikasi material andalan BSM.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function CatalogView({ onProductSelect, initialCategory = "all" }
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Ketik produk (misal: 'Pagar BRC', 'Alderon', 'HDG', '6.0 mm')..."
+              placeholder="Ketik produk (misal: 'Pagar BRC', 'Kawat Duri', 'Guardrail', 'HDG', '6.0 mm')..."
               className="w-full bg-slate-950/75 border border-white/10 rounded-none py-3.5 pl-12 pr-4 text-xs md:text-sm text-white focus:outline-none focus:border-safety-orange transition-all placeholder-gray-500 shadow-xl"
             />
             {searchQuery && (
@@ -233,7 +233,7 @@ export default function CatalogView({ onProductSelect, initialCategory = "all" }
             <div className="space-y-1">
               <h3 className="font-display font-medium uppercase text-lg text-white">Bahan Material Tidak Ditemukan</h3>
               <p className="text-xs text-slate-400 font-sans max-w-md leading-relaxed mx-auto">
-                Kata kunci pencarian kustomisasi Anda tidak cocok dengan 7 klasifikasi utama kami. Silakan ketik nama lain atau mintalah tim sales estimator BSM memproyeksikannya secara manual.
+                Kata kunci pencarian kustomisasi Anda tidak cocok dengan klasifikasi utama kami. Silakan ketik nama lain atau mintalah tim sales estimator BSM memproyeksikannya secara manual.
               </p>
             </div>
             <button
